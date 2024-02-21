@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SafeAreaView, Text, Image, FlatList, StyleSheet } from "react-native";
+import { SafeAreaView, Text, Image, FlatList, StyleSheet, View } from "react-native";
 
 const App = () => {
   const moviesList = [
@@ -40,31 +40,31 @@ const App = () => {
       url: "https://www.gaceta.udg.mx/wp-content/uploads/2010/02/601032.jpg",
     },
     {
-      id: 6,
+      id: 7,
       name: "Titanic",
       director: "James Cameron",
       url: "https://www.abc.es/media/peliculas/000/044/428/titanic-1.jpg",
     },
     {
-      id: 7,
+      id: 8,
       name: "En donde viven los mounstros",
       director: "Spike Jonze",
       url: "https://es.web.img3.acsta.net/medias/nmedia/18/69/80/75/19167746.jpg",
     },
     {
-      id: 8,
+      id: 9,
       name: "The lighthouse",
       director: "Robert Eggers",
       url: "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
     },
     {
-      id: 9,
+      id: 10,
       name: "Her",
       director: "Spike Jonze",
       url: "https://www.ecartelera.com/carteles/6800/6870/002_m.jpg",
     },
     {
-      id: 10,
+      id: 11,
       name: "Pretty Woman",
       director: "Guillermo del Toro",
       url: "https://c8.alamy.com/compes/2jhdety/richard-gere-julia-roberts-poster-pretty-woman-1990-2jhdety.jpg",
@@ -75,6 +75,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <Text></Text>
       <Text style={styles.title}>
         Bienvenido a la aplicación de películas 🍿
       </Text>
